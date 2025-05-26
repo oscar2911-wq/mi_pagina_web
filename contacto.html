@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Vibe Armonía Renovada</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-rV3fP8f8vUZQ6ZsbEZZ6lwPxlA2p6DCp5BOJd8l3V5q1skqTxRZ0LbHq3QaXo0BoqccU6Q3FZg2K60Wib4fwRg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #00e5ff, #1de9b6);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 30px;
+      background-color: #ffffff10;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .contact-card {
+      background-color: #ffffff20;
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .contact-card i {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+
+    .contact-card a, .contact-card p {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.1rem;
+      word-break: break-word;
+    }
+
+    @media (max-width: 600px) {
+      .contact-list {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contáctanos</h1>
+    <div class="contact-list">
+
+      <div class="contact-card">
+        <i class="fab fa-facebook-square"></i>
+        <a href="https://www.facebook.com/share/15yjKzz32C/" target="_blank">Facebook</a>
+      </div>
+
+      <div class="contact-card">
+        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/vibe_armonia_renovada?igsh=MTkxaG14ZzBvZG85Ng==" target="_blank">Instagram</a>
+      </div>
+
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:vibearmoniarenovada@gmail.com">vibearmoniarenovada@gmail.com</a>
+      </div>
+
+      <div class="contact-card">
+        <i class="fas fa-phone-alt"></i>
+        <p>numero:</n>5531206636</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
