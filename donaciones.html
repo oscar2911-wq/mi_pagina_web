@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    header, footer {
+        background-color: #005f73;
+        color: white;
+        padding: 1em 2em;
+        text-align: center;
+    }
+    nav {
+        background-color: #0a9396;
+        padding: 1em;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 1em;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    main {
+        padding: 2em;
+        background-color: white;
+        margin: 2em auto;
+        max-width: 1000px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+        color: #001219;
+    }
+    button, .btn {
+        background-color: #94d2bd;
+        color: #001219;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    button:hover, .btn:hover {
+        background-color: #ee9b00;
+        color: white;
+    }
+</style>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Donaciones - Programa de Apoyo Educativo - Vibe</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        background-color: #1de9b6;
+    }
+    section {
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        color: #333;
+        margin-bottom: 40px;
+    }
+    h2, h3 {
+        color: #00bfa5;
+        margin-bottom: 15px;
+    }
+    p, ul, form {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+    ul {
+        padding-left: 20px;
+        list-style: disc;
+    }
+    form input, form button {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 100%;
+        max-width: 300px;
+    }
+    form button {
+        background-color: #00bfa5;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    form button:hover {
+        background-color: #009688;
+    }
+    hr {
+        margin: 30px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+    .imagen-apartado {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto 40px auto;
+        border-radius: 15px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+        transition: transform 0.3s ease;
+    }
+    .imagen-apartado:hover {
+        transform: scale(1.03);
+    }
+</style>
+</head>
+<body>
+  <main>
+    <section>
+      <h2>Apoya nuestra causa</h2>
+      <img src="C:\Users\OSCAR\Desktop\pagina web\im5.jpg" alt="Apoyo con donaciones" class="imagen-apartado" />
+      <p>Tu donación nos permite seguir ofreciendo apoyo educativo a quienes más lo necesitan.</p>
+      <form action="https://www.paypal.com/donate" method="post" target="_blank">
+        <input type="hidden" name="hosted_button_id" value="TU_ID_DE_PAYPAL" />
+        <label for="donacion">Cantidad a donar (MXN):</label><br>
+        <input type="number" id="donacion" name="amount" min="10" step="10" required><br>
+        <button type="submit">Donar con PayPal</button>
+      </form>
+      <hr>
+      <h3>Transferencia bancaria</h3>
+      <p>También puedes donar mediante transferencia bancaria:</p>
+      <ul>
+        <li><strong>Banco:</strong> BBVA</li>
+        <li><strong>Cuenta:</strong> 1234567890</li>
+        <li><strong>CLABE:</strong> 012345678901234567</li>
+        <li><strong>Beneficiario:</strong> Programa de Apoyo Educativo A.C.</li>
+         <a href="index.html">regresar</a>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
